@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecNM Chihuahua 2</title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+<body>
+    <img src="Yo.jpg" alt="">
+    Josue Alonso Lagunas Lozoya
+</body>
+<div class="content">
+    <nav>
+        <img src="usua.png" alt="">
+        <a href="datospersonales.html">Datos Personales</a><br>
+        <img src="usua.png" alt="">
+        <a href="#">Datos Academicos</a>
+    </nav>
+    <main>
+        <h2>DATOS ACADEMICOS</h2>
+
+        <table class="tabla-datos">
+            <thead>
+                <tr>
+                    <th>PERIODO</th>
+                    <th>NIVEL DE ESTUDIOS</th>
+                    <th>TITULO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form action="">
+                    <tr>
+                        <td><input type="text" name="periodo1" placeholder="Ej. 2020-2024"></td>
+                        <td><input type="text" name="nivel1" placeholder=" "></td>
+                        <td><input type="text" name="titulo1" placeholder=" "></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="periodo2" placeholder=" "></td>
+                        <td><input type="text" name="nivel2" placeholder=" "></td>
+                        <td><input type="text" name="titulo2" placeholder=" "></td>
+                    </tr>
+                    <input type="submit">
+                </form>
+            </tbody>
+        </table>
+
+        <h3>
+            Solo teclee los datos del ultimo grado de estudios certificado
+        </h3> <br><br>
+
+        <form action="">
+            <label for="Periodo">Periodo en Años (AAAA-AAAA):</label>
+            <input type="text" id="periodo" name="periodo"> <br><br>
+
+            <label for="Grado">Grado de estudios:</label>
+            <input type="text" id="grado" name="grado"> <br><br>
+
+            <label for="Escuela">Nombre de la escuela:</label>
+            <input type="text" id="escuela" name="escuela"><br><br>
+
+            <label for="Carrera">Nombre de la carrera que esta estudiando:</label>
+            <input type="text" name="carrera" id="carrera"><br><br>
+
+            <input type="submit">
+        </form>
+    </main>
+</div>
+</html>

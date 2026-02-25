@@ -1,0 +1,51 @@
+header{
+    color: white;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.content{
+    display: flex;
+    height: calc(100vh - 60px); /* Assuming header height is about 60px, adjust as needed*/
+}
+
+nav{
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.tabla-datos th, .tabla-datos td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-datos thead{
+    background-color: #f2f2f2; /* Fondo para encabezado*/
+}
+
+.tabla-datos input{
+    width: 100%; /* Inputs llenan la celda */
+    border: none;
+    padding: 5px;
+    box-sizing: border-box; /* Manejo correcto de padding*/
+}
